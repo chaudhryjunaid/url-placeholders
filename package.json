@@ -1,0 +1,18 @@
+{
+  "name": "url-placeholders",
+  "version": "1.0.0",
+  "description": "Replace all occurrences of URL parameter name with actual parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "placeholders",
+    "url",
+    "string",
+    "replace",
+    "defaults"
+  ],
+  "author": "Chaudhry Junaid Anwar",
+  "license": "MIT"
+}
