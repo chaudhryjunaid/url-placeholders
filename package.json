@@ -4,7 +4,7 @@
   "description": "Replace all occurrences of URL parameter name with actual parameters",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha"
   },
   "keywords": [
     "placeholders",
@@ -14,5 +14,14 @@
     "defaults"
   ],
   "author": "Chaudhry Junaid Anwar",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash.assign": "^4.2.0",
+    "lodash.reduce": "^4.6.0",
+    "lodash.replace": "^4.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
 }
